@@ -1,7 +1,20 @@
+@font-face {
+    font-family: Graphik;
+    src: url(Font/Graphik-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url(Font/Graphik-Medium.ttf);
+    font-weight: 500;
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Graphik, sans-serif;
 }
 
 
@@ -25,6 +38,7 @@ body {
     color: white;
     display: block;
     line-height: 32px;
+    font-weight: 400;
 }
 
 .sidenav a:hover {
