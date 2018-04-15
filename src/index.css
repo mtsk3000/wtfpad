@@ -18,24 +18,45 @@ body {
 }
 
 
+.App {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* -------- Module -------- */
+.module-wrapper {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    overflow: scroll;
+}
+
+
+
+
+
+
+/* -------- NAV -------- */
 
 .sidenav {
+    display: inline-block;
     height: 100%;
-    width: 200px;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #36476C;
+    color: white;
     overflow-x: hidden;
-    padding-top: 60px;
+    /*padding-top: 32px;*/
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
+    color: white;
     text-decoration: none;
     font-size: 14px;
-    color: white;
     display: block;
     line-height: 32px;
     font-weight: 400;
@@ -43,5 +64,10 @@ body {
 
 .sidenav a:hover {
     background-color: #673F89;
+    transition: 0.2s;
+}
+
+.settingSideNav a:hover {
+    background-color: #F1F1F1;
     transition: 0.2s;
 }
